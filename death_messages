@@ -1,3 +1,6 @@
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("cusdead script activated. Thanks to andmagaz","All")
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ads:","All")
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("andmagaz is best scripter ever!","All")
 local list = {}
 local list2 = {}
 
@@ -54,5 +57,3 @@ game.Players.PlayerAdded:Connect(function(player)
         game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))   
     end)
 end)
-
-print("Death Messages Enabled.")
